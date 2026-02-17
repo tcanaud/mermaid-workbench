@@ -70,7 +70,15 @@ export async function parseDiagram(filePath: string): Promise<Diagram> {
   const { data, content: mermaidContent } = matter(content);
 
   return {
-    frontmatter: data as Diagram['frontmatter'],
+    frontmatter: {
+      id: data.id ?? '',
+      title: data.title ?? '',
+      type: data.type ?? 'flowchart',
+      layer: data.layer ?? 'L0',
+      parent: data.parent ?? null,
+      children: data.children ?? [],
+      feature: data.feature ?? '',
+    },
     mermaidContent: mermaidContent.trim(),
     filePath,
   };

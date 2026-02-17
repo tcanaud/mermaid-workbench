@@ -52,7 +52,7 @@ export function MetadataPanel({ frontmatter, onNavigate }: Props) {
         </div>
       )}
 
-      {frontmatter.children.length > 0 && (
+      {frontmatter.children?.length > 0 && (
         <div class="metadata-section">
           <h4>Children</h4>
           <ul class="metadata-list">
