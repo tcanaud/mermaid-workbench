@@ -1,6 +1,6 @@
 {
   "name": "mermaid-workbench",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "description": "BMAD module + live viewer for multi-layer Mermaid diagrams. Generate, organize, and navigate diagrams with drill-down support.",
   "bin": {
