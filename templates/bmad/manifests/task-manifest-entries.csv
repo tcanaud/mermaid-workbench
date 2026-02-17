@@ -1,0 +1,2 @@
+"mermaid-generate-diagram","Mermaid: Generate Diagram","Generate a multi-layer Mermaid diagram (.mmd) from natural language with frontmatter, index, and drill-down links","mermaid-workbench","_bmad/modules/mermaid-workbench/tasks/generate-diagram.md","true"
+"mermaid-update-diagram","Mermaid: Update Diagram","Update an existing Mermaid diagram from natural language instructions, preserving frontmatter and relationships","mermaid-workbench","_bmad/modules/mermaid-workbench/tasks/update-diagram.md","true"

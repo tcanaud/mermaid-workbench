@@ -1,0 +1,7 @@
+  - name: mermaid-workbench
+    version: 1.0.0
+    installDate: AUTO
+    lastUpdated: AUTO
+    source: external
+    npmPackage: mermaid-workbench
+    repoUrl: null
